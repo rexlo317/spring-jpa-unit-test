@@ -13,6 +13,13 @@ public class SingleEntity {
     @Column(length = 10)
     private String name;
 
+    public SingleEntity(){}
+
+    public SingleEntity(String name, Long id){
+        this.name=name;
+        this.id = id;
+    }
+
     public Long getId() {
         return id;
     }

@@ -15,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @RunWith(SpringRunner.class)
 @DataJpaTest
 public class SingleEntityTest {
+
     @Autowired
     private SingleEntityRepository singleEntityRepository;
     @Autowired
