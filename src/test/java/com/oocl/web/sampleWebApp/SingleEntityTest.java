@@ -19,6 +19,6 @@ public class SingleEntityTest {
         singleEntity.setId(1L);
         singleEntity.setName("Tom");
         singleEntityRepository.save(singleEntity);
-        assertEquals("Tom",singleEntityRepository.findAll().get(0).getName());
+        assertEquals("Tom",singleEntityRepository.getOne(1L).getName());
     }
 }
