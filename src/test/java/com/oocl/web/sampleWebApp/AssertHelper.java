@@ -1,4 +1,4 @@
-package com.oocl.web.sampleWebApp.jpaSample;
+package com.oocl.web.sampleWebApp;
 
 import static org.junit.Assert.fail;
 
